@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ArrayInJava {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 		//Khai báo biến mảng trong jvava
 		/* Kieu_du_lieu[]Bien_tham_chieu_mang
@@ -32,7 +34,7 @@ public class ArrayInJava {
 		}
 		
 		int size;
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		System.out.println("Nhap size cua mang");
 		size = scan.nextInt();
 		
