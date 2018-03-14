@@ -12,9 +12,10 @@ public class WhileLoop {
 	 * {Khối_lệnh_thực_hiện_trong_vòng_lặp;}
 	 */
 
+	private static Scanner number;
+
 	public static void main(String[] args) {
-		// Nhap vao so nguyen n va tinh tong
-		Scanner number = new Scanner(System.in);
+		number = new Scanner(System.in);
 		System.out.println("input n value : ");
 		int n = number.nextInt();
 		int i = 0;
@@ -24,10 +25,15 @@ public class WhileLoop {
 			System.out.println("so thu tu " + i);
 			S += i;
 			i++;
-
 		}
 		System.out.println("Tổng của dãy " + n + " số = " + S);
 
 	}
 
 }
+
+/*
+ * While 	: Thỏa mãn điều kiện rồi làm
+ * Do While : Làm rồi kiểm tra điêu kiện
+ * 
+ */
