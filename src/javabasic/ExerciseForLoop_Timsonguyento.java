@@ -23,7 +23,7 @@ public class ExerciseForLoop_Timsonguyento {
 			}
 			System.out.println(n + " la so nguyen to");
 		}
-
+//
 	}
 
 }
